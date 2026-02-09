@@ -1,0 +1,42 @@
+{
+    "features": [
+        "Year_of_Manufacture",
+        "Vehicle_Type",
+        "Usage_Hours",
+        "Load_Capacity",
+        "Actual_Load",
+        "Maintenance_Cost",
+        "Engine_Temperature",
+        "Tire_Pressure",
+        "Fuel_Consumption",
+        "Battery_Status",
+        "Vibration_Levels",
+        "Oil_Quality",
+        "Failure_History",
+        "Anomalies_Detected",
+        "Predictive_Score",
+        "Weather_Conditions",
+        "Road_Conditions",
+        "Delivery_Times",
+        "Downtime_Maintenance",
+        "Impact_on_Efficiency",
+        "Load_Utilization"
+    ],
+    "mappings": {
+        "Weather_Conditions": {
+            "Clear": 0,
+            "Rainy": 1,
+            "Snowy": 2,
+            "Windy": 3
+        },
+        "Road_Conditions": {
+            "Highway": 0,
+            "Rural": 1,
+            "Urban": 2
+        },
+        "Vehicle_Type": {
+            "Truck": 0,
+            "Van": 1
+        }
+    }
+}

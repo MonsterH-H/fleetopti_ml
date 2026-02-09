@@ -1,0 +1,66 @@
+{
+    "features": [
+        "Vehicle_Model",
+        "Mileage",
+        "Maintenance_History",
+        "Reported_Issues",
+        "Vehicle_Age",
+        "Fuel_Type",
+        "Transmission_Type",
+        "Engine_Size",
+        "Odometer_Reading",
+        "Owner_Type",
+        "Insurance_Premium",
+        "Service_History",
+        "Accident_History",
+        "Fuel_Efficiency",
+        "Tire_Condition",
+        "Brake_Condition",
+        "Battery_Status",
+        "Days_Since_Service"
+    ],
+    "mappings": {
+        "Vehicle_Model": {
+            "Bus": 0,
+            "Car": 1,
+            "Motorcycle": 2,
+            "SUV": 3,
+            "Truck": 4,
+            "Van": 5
+        },
+        "Maintenance_History": {
+            "Average": 0,
+            "Good": 1,
+            "Poor": 2
+        },
+        "Fuel_Type": {
+            "Diesel": 0,
+            "Electric": 1,
+            "Petrol": 2
+        },
+        "Transmission_Type": {
+            "Automatic": 0,
+            "Manual": 1
+        },
+        "Owner_Type": {
+            "First": 0,
+            "Second": 1,
+            "Third": 2
+        },
+        "Tire_Condition": {
+            "Good": 0,
+            "New": 1,
+            "Worn Out": 2
+        },
+        "Brake_Condition": {
+            "Good": 0,
+            "New": 1,
+            "Worn Out": 2
+        },
+        "Battery_Status": {
+            "Good": 0,
+            "New": 1,
+            "Weak": 2
+        }
+    }
+}
