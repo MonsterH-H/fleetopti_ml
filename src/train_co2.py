@@ -33,7 +33,8 @@ def train_co2_model(csv_path):
     if not os.path.exists(model_dir):
         os.makedirs(model_dir)
         
-    with open(os.path.join(model_dir, "co2_model.onnx"), "wb") as f:
+    with open(os.path.join(
+        model_dir, "co2_model.onnx"), "wb") as f:
         f.write(onx.SerializeToString())
         
     # Export Metadata
